@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td, small, button, time, figure {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+html {
+  font-size: 62.5%;
+  color: #555;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0.8rem 2rem;
+  border-radius: 3px;
+  background: #ccc;
+  transition: all ease 0.2s;
+}
+
+.prevButton {
+  margin-right: 1.6rem;
+  border: 1px solid #FF6262;
+  background-color: #fff;
+  color: #FF6262;
+}
+.prevButton:hover {
+  background-color: #FF6262;
+  color: #fff;
+}
+
+.nextButton {
+  border: 1px solid #36ABFF;
+  background-color: #fff;
+  color: #36ABFF;
+}
+.nextButton:hover {
+  background-color: #36ABFF;
+  color: #fff;
+}
+
+.photoViewer {
+  max-width: 1280px;
+  width: 100%;
+  margin: 2.4rem auto 0 auto;
+  padding: 0 2.4rem;
+}
+.photoViewer_title, .photoViewer_btns {
+  text-align: center;
+}
+.photoViewer_title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.photoViewer_img, .photoViewer_btns {
+  margin-top: 2.4rem;
+}
+.photoViewer_img .currentText {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.photoViewer_img .currentImage {
+  max-width: 860px;
+  width: 100%;
+  margin: 2.4rem auto 0 auto;
+}
+.photoViewer_btns .prevButton {
+  margin-right: 1.6rem;
+}
+.photoViewer_url {
+  max-width: 860px;
+  width: 100%;
+  margin-top: 2.4rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.photoViewer_url_title {
+  font-size: 1.8rem;
+}
+.photoViewer_url_imgs {
+  margin-top: 2.4rem;
+}
+.photoViewer_url_img {
+  margin-top: 0.8rem;
+}
+.photoViewer_url_img_link {
+  font-size: 1.6rem;
+}

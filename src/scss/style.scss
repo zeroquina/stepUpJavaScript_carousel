@@ -1,0 +1,127 @@
+@charset 'UTF-8';
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td, small, button, time, figure {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+html {
+    font-size: 62.5%;
+    color: #555;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: .8rem 2rem;
+    border-radius: 3px;
+    background: #ccc;
+    transition: all ease .2s;
+}
+
+.prevButton {
+    margin-right: 1.6rem;
+    border: 1px solid #FF6262;
+    background-color: #fff;
+    color: #FF6262;
+
+    &:hover {
+        background-color: #FF6262;
+        color: #fff;
+    }
+}
+
+
+.nextButton {
+    border: 1px solid #36ABFF;
+    background-color: #fff;
+    color: #36ABFF;
+
+    &:hover {
+        background-color: #36ABFF;
+        color: #fff;
+    }
+}
+
+
+.photoViewer {
+
+    max-width: 1280px;
+    width: 100%;
+    margin: 2.4rem auto 0 auto;
+    padding: 0 2.4rem;
+
+    &_title,
+    &_btns {
+        text-align: center;
+    }
+
+    &_title {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    &_img,
+    &_btns {
+        margin-top: 2.4rem;
+    }
+
+    &_img {
+
+        .currentText {
+            text-align: center;
+            font-size: 1.6rem;
+        }
+
+        .currentImage {
+            max-width: 860px;
+            width: 100%;
+            margin: 2.4rem auto 0 auto;
+        }
+    }
+
+    &_btns {
+        .prevButton {
+            margin-right: 1.6rem;
+        }
+    }
+
+    &_url {
+        max-width: 860px;
+        width: 100%;
+        margin-top: 2.4rem;
+        margin-right: auto;
+        margin-left: auto;
+        
+        &_title {
+            font-size: 1.8rem;
+        }
+
+        &_imgs {
+            margin-top: 2.4rem;
+        }
+        
+        &_img {
+            margin-top: .8rem;
+
+            &_link {
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+}
